@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact - JapaneseWave</title>
+<meta property="og:image" content="/files/wave.png"/>
+<link rel="icon" type="image/png" href="/files/wave.png"/>
+<link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+<header>
+<img src="files/wave.png"/> <span class="title">JapaneseWave</span>
+</header>
+<nav>
+  <a href="/">Home</a> 
+  <a href="/lessons">Lessons</a> 
+  <a href="/kanji">Kanji</a> 
+  <a class="active" href="#">Contact</a>
+</nav>
+<br>
+<main>
+<style>
+input[type=text], textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #0080f0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Fredoka', sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+.contact-form {
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 10px;
+}
+</style>
+<h2 style="text-align: center;">Contact</h2>
+<p style="text-align: center;">For enquiry, suggestion, bug or anything</p>
+<div class="contact-form">
+  <form action="#notactive">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+    
+    <label for="lname">Email </label>
+    <input type="text" id="lname" name="lastname" placeholder="Your email.." required>
+
+    <label for="country">Country</label>
+    <select id="country" name="country" required>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="france">France</option>
+      <option value="ireland">Ireland</option>
+      <option value="italy">Italy</option>
+      <option value="norway">Norway</option>
+      <option value="mexico">Mexico</option>
+      <option value="newzealand">New Zealand</option>
+      <option value="spain">Spain</option>
+      <option value="usa">United Kingdom</option>
+      <option value="usa">United States</option>
+      <option value="other">Other</option>
+    </select>
+  <textarea name="message" rows="5" placeholder="Write your message here.." required></textarea>
+    <input type="submit" value="Submit" disabled>
+  </form>
+</div>
+</main>
+<footer>© 2022 JapaneseWave - All rights reserved</footer>
+</body>
+</html>
