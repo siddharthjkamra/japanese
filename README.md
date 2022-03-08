@@ -1,1 +1,1 @@
-# japanese
+# JapaneseWave
