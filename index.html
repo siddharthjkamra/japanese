@@ -31,8 +31,11 @@
 </div>
 <div class="CatTitle">Kanji</div>
 <div class="buttonCover">
-<button class="Button ButtonBlue">N5</button>
-<button class="Button ButtonBlue">N4</button>
+<button class="Button ButtonBlue">100 of N5</button>
+<button class="Button ButtonBlue">JLPT N4</button>
+<button class="Button ButtonBlue">JLPT N3</button>
+<button class="Button ButtonBlue">JLPT N2</button>
+
 </div>
 <div class="CatTitle">Blogs</div>
 <div class="buttonCover">
@@ -44,6 +47,60 @@
 <button class="moreBlogs" onclick="location.href='https://blog.japanesewave.com';">More</button>
 </div>
 </main>
+
+<!-- Popup -->
+
+<div class="popup">
+<h2>We are adding content on website</h2>
+<p>You can join us, If you want to be a part of this community. Write us on contact@japanesewave.com</p>
+<button id="close">Close</button>
+</div>
+
+<style>
+.popup{
+    background-color: #f0f0f0;
+    width: 90%;
+    padding: 10px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 85%;
+    display: none;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}
+.popup button{
+    display: block;
+    margin: 0 auto;
+    background-color: #0080f0;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 2px;
+}
+</style>
+
+<script>
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        1000
+    )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+</script>
+
+<!-- Popup Ends -->
 <footer>© 2022 JapaneseWave - All rights reserved</footer>
 </body>
 </html>
