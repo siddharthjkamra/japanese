@@ -18,12 +18,28 @@ margin: 0 auto;
   padding: 10px;
   font-weight: bold;
 }
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  font-weight: bold;
+}
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
+  font-size: 2em;
   text-align: center;
+  vertical-align: middle;
+}
+
+.grid-item span {
+				font-size: 0.5em;
+				font-family: 'Fredoka', sans-serif;
+				display: block;
+				font-weight: normal;
 }
 
 /* Main Page CSS */
@@ -110,6 +126,10 @@ nav .active {
 			 background-color: #0080f0;
 			 color: white;
 			 border-radius: 2px;
+}
+
+.moreBlogs:hover {
+				background-color: black;
 }
 
 footer {
