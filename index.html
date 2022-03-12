@@ -15,12 +15,13 @@
 </header>
 <nav>
   <a class="active" href="#">Home</a> 
-  <a href="lessons">Lessons</a> 
-  <a href="kanji">Kanji</a> 
-  <a href="contact">Contact</a>
+  <a href="lessons/index.html">Lessons</a> 
+  <a href="kanji/index.html">Kanji</a> 
+  <a href="contact.html">Contact</a>
 </nav>
 <br>
 <main>
+<div style="font-weight:bold;padding-left:20px;"><span style="font-size:90px;color:#0080f0; vertical-align:middle;">LEARN</span><span style="font-size:40px;vertical-align:middle;">FOR</span><div style="margin-top:-20px;font-size:90px;font-weight:bold;">ANIME</div></div>
 <div class="heroCover">
 <img src="files/hero.jpg" style="border-radius: 10px;" width="90%">
 </div>
@@ -31,7 +32,7 @@
 </div>
 <div class="CatTitle">Kanji</div>
 <div class="buttonCover">
-<button class="Button ButtonBlue">100 of N5</button>
+<button class="Button ButtonBlue">First 100 Kanji</button>
 <button class="Button ButtonBlue">JLPT N4</button>
 <button class="Button ButtonBlue">JLPT N3</button>
 <button class="Button ButtonBlue">JLPT N2</button>
@@ -42,6 +43,8 @@
 <button class="Button ButtonBlue">Should You Memorize Kana?</button>
 <button class="Button ButtonBlue">How to Learn Kanji?</button>
 <button class="Button ButtonBlue">Can I Learn Japanese and Chinese Together?</button>
+<button class="Button ButtonBlue">Which Apps Are Useful for Japanese Language?</button>
+<button class="Button ButtonBlue">Does Duolingo Really Work?</button>
 </div>
 <div class="moreBlogsCover">
 <button class="moreBlogs" onclick="location.href='https://blog.japanesewave.com';">More</button>
@@ -49,7 +52,6 @@
 </main>
 
 <!-- Popup -->
-
 <div class="popup">
 <h2>We are adding content on website</h2>
 <p>You can join us, If you want to be a part of this community. Write us on contact@japanesewave.com</p>
@@ -69,6 +71,7 @@
     text-align: center;
     color: black;
     border: 1px solid black;
+    max-width: 600px;
 }
 .popup button{
     display: block;
@@ -81,7 +84,11 @@
     cursor: pointer;
     padding: 5px;
     border-radius: 2px;
-   font-family: 'Fredoka', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.popup button:hover {
+    background-color: black;
 }
 </style>
 
