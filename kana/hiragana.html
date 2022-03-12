@@ -16,77 +16,138 @@
   <a class="active" href="#">Hiragana</a> 
   <a href="/kana/katakana">Katakana</a> 
 </nav>
+
+<!-- Sound Importing -->
+<!-- AIUEO -->
+<audio id="sound_a" src="sounds/a.mp3" preload="auto"></audio>
+<audio id="sound_i" src="sounds/i.mp3" preload="auto"></audio>
+<audio id="sound_u" src="sounds/u.mp3" preload="auto"></audio>
+<audio id="sound_e" src="sounds/e.mp3" preload="auto"></audio>
+<audio id="sound_o" src="sounds/o.mp3" preload="auto"></audio>
+<!-- KAKIKUKEKO -->
+<audio id="sound_ka" src="sounds/ka.mp3" preload="auto"></audio>
+<audio id="sound_ki" src="sounds/ki.mp3" preload="auto"></audio>
+<audio id="sound_ku" src="sounds/ku.mp3" preload="auto"></audio>
+<audio id="sound_ke" src="sounds/ke.mp3" preload="auto"></audio>
+<audio id="sound_ko" src="sounds/ko.mp3" preload="auto"></audio>
+<!-- SASHISUSESO -->
+<audio id="sound_sa" src="sounds/sa.mp3" preload="auto"></audio>
+<audio id="sound_shi" src="sounds/shi.mp3" preload="auto"></audio>
+<audio id="sound_su" src="sounds/su.mp3" preload="auto"></audio>
+<audio id="sound_se" src="sounds/se.mp3" preload="auto"></audio>
+<audio id="sound_so" src="sounds/so.mp3" preload="auto"></audio>
+<!-- TACHITSUTETO -->
+<audio id="sound_ta" src="sounds/ta.mp3" preload="auto"></audio>
+<audio id="sound_chi" src="sounds/chi.mp3" preload="auto"></audio>
+<audio id="sound_tsu" src="sounds/tsu.mp3" preload="auto"></audio>
+<audio id="sound_te" src="sounds/te.mp3" preload="auto"></audio>
+<audio id="sound_to" src="sounds/to.mp3" preload="auto"></audio>
+<!-- NANINUNENO -->
+<audio id="sound_na" src="sounds/na.mp3" preload="auto"></audio>
+<audio id="sound_ni" src="sounds/ni.mp3" preload="auto"></audio>
+<audio id="sound_nu" src="sounds/nu.mp3" preload="auto"></audio>
+<audio id="sound_ne" src="sounds/ne.mp3" preload="auto"></audio>
+<audio id="sound_no" src="sounds/no.mp3" preload="auto"></audio>
+<!-- HAHIFUHEHO -->
+<audio id="sound_ha" src="sounds/ha.mp3" preload="auto"></audio>
+<audio id="sound_hi" src="sounds/hi.mp3" preload="auto"></audio>
+<audio id="sound_fu" src="sounds/fu.mp3" preload="auto"></audio>
+<audio id="sound_he" src="sounds/he.mp3" preload="auto"></audio>
+<audio id="sound_ho" src="sounds/ho.mp3" preload="auto"></audio>
+<!-- MAMIMUMEMO -->
+<audio id="sound_ma" src="sounds/ma.mp3" preload="auto"></audio>
+<audio id="sound_mi" src="sounds/mi.mp3" preload="auto"></audio>
+<audio id="sound_mu" src="sounds/mu.mp3" preload="auto"></audio>
+<audio id="sound_me" src="sounds/me.mp3" preload="auto"></audio>
+<audio id="sound_mo" src="sounds/mo.mp3" preload="auto"></audio>
+<!-- YAYUYO -->
+<audio id="sound_ya" src="sounds/ya.mp3" preload="auto"></audio>
+<audio id="sound_yu" src="sounds/yu.mp3" preload="auto"></audio>
+<audio id="sound_yo" src="sounds/yo.mp3" preload="auto"></audio>
+<!-- RARIRURERO -->
+<audio id="sound_ra" src="sounds/ra.mp3" preload="auto"></audio>
+<audio id="sound_ri" src="sounds/ri.mp3" preload="auto"></audio>
+<audio id="sound_ru" src="sounds/ru.mp3" preload="auto"></audio>
+<audio id="sound_re" src="sounds/re.mp3" preload="auto"></audio>
+<audio id="sound_ro" src="sounds/ro.mp3" preload="auto"></audio>
+<!-- WAWO -->
+<audio id="sound_wa" src="sounds/wa.mp3" preload="auto"></audio>
+<audio id="sound_wo" src="sounds/o.mp3" preload="auto"></audio>
+<!-- N -->
+<audio id="sound_n" src="sounds/n.mp3" preload="auto"></audio>
+
+<!-- Starting Alphabet -->
 <div class="japanese">
 <center>
 <h1>ひらがな</h1>
 </center>
 <div class="grid-container">
   <!-- AIUEO -->
-  <div class="grid-item">あ</div>
-  <div class="grid-item">い</div>
-  <div class="grid-item">う</div>  
-  <div class="grid-item">え</div>
-  <div class="grid-item">お</div>
+  <div class="grid-item" onclick="document.getElementById('sound_a').play();">あ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_i').play();">い</div>
+  <div class="grid-item" onclick="document.getElementById('sound_u').play();">う</div>  
+  <div class="grid-item" onclick="document.getElementById('sound_e').play();">え</div>
+  <div class="grid-item" onclick="document.getElementById('sound_o').play();">お</div>
   <!-- KAKIKUKEKO -->
-  <div class="grid-item">か</div>  
-  <div class="grid-item">き</div>
-  <div class="grid-item">く</div>
-  <div class="grid-item">け</div>
-  <div class="grid-item">こ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ka').play();">か</div>  
+  <div class="grid-item" onclick="document.getElementById('sound_ki').play();">き</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ku').play();">く</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ke').play();">け</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ko').play();">こ</div>
   <!-- SASHISUSESO --> 
-  <div class="grid-item">さ</div>  
-  <div class="grid-item">し</div>
-  <div class="grid-item">す</div>
-  <div class="grid-item">せ</div>
-  <div class="grid-item">そ</div> 
+  <div class="grid-item" onclick="document.getElementById('sound_sa').play();">さ</div>  
+  <div class="grid-item" onclick="document.getElementById('sound_shi').play();">し</div>
+  <div class="grid-item" onclick="document.getElementById('sound_su').play();">す</div>
+  <div class="grid-item" onclick="document.getElementById('sound_se').play();">せ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_so').play();">そ</div> 
   <!-- TACHITSUTETO -->
-  <div class="grid-item">た</div>  
-  <div class="grid-item">ち</div>
-  <div class="grid-item">つ</div>
-  <div class="grid-item">て</div>
-  <div class="grid-item">と</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ta').play();">た</div>  
+  <div class="grid-item" onclick="document.getElementById('sound_chi').play();">ち</div>
+  <div class="grid-item" onclick="document.getElementById('sound_tsu').play();">つ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_te').play();">て</div>
+  <div class="grid-item" onclick="document.getElementById('sound_to').play();">と</div>
   <!-- NANINUNENO -->
-  <div class="grid-item">な</div>  
-  <div class="grid-item">に</div>
-  <div class="grid-item">ぬ</div>
-  <div class="grid-item">ね</div>
-  <div class="grid-item">の</div>
+  <div class="grid-item" onclick="document.getElementById('sound_na').play();">な</div>  
+  <div class="grid-item" onclick="document.getElementById('sound_ni').play();">に</div>
+  <div class="grid-item" onclick="document.getElementById('sound_nu').play();">ぬ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ne').play();">ね</div>
+  <div class="grid-item" onclick="document.getElementById('sound_no').play();">の</div>
   <!-- HAHIFUHEHO -->
-  <div class="grid-item">は</div>  
-  <div class="grid-item">ひ</div>
-  <div class="grid-item">ふ</div>
-  <div class="grid-item">へ</div>
-  <div class="grid-item">ほ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ha').play();">は</div>  
+  <div class="grid-item" onclick="document.getElementById('sound_hi').play();">ひ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_fu').play();">ふ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_he').play();">へ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ho').play();">ほ</div>
   <!-- MAMIMUMEMO -->
-  <div class="grid-item">ま</div>  
-  <div class="grid-item">み</div>
-  <div class="grid-item">む</div>
-  <div class="grid-item">め</div>
-  <div class="grid-item">も</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ma').play();">ま</div>  
+  <div class="grid-item" onclick="document.getElementById('sound_mi').play();">み</div>
+  <div class="grid-item" onclick="document.getElementById('sound_mu').play();">む</div>
+  <div class="grid-item" onclick="document.getElementById('sound_me').play();">め</div>
+  <div class="grid-item" onclick="document.getElementById('sound_mo').play();">も</div>
   <!-- YAYUYO -->
-  <div class="grid-item">や</div>  
+  <div class="grid-item" onclick="document.getElementById('sound_ya').play();">や</div>  
   <div class="grid-item"></div>
-  <div class="grid-item">ゆ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_yu').play();">ゆ</div>
   <div class="grid-item"></div>
-  <div class="grid-item">よ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_yo').play();">よ</div>
   <!-- RARIRURERO -->
-  <div class="grid-item">ら</div>  
-  <div class="grid-item">り</div>
-  <div class="grid-item">る</div>
-  <div class="grid-item">れ</div>
-  <div class="grid-item">ろ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ra').play();">ら</div>  
+  <div class="grid-item" onclick="document.getElementById('sound_ri').play();">り</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ru').play();">る</div>
+  <div class="grid-item" onclick="document.getElementById('sound_re').play();">れ</div>
+  <div class="grid-item" onclick="document.getElementById('sound_ro').play();">ろ</div>
   <!-- WAWO -->
-  <div class="grid-item">わ</div>  
+  <div class="grid-item" onclick="document.getElementById('sound_wa').play();">わ</div>  
   <div class="grid-item"></div>
   <div class="grid-item"></div>
   <div class="grid-item"></div>
-  <div class="grid-item">を</div>
+  <div class="grid-item" onclick="document.getElementById('sound_wo').play();">を</div>
   <!-- N -->
   <div class="grid-item"></div>  
   <div class="grid-item"></div>
   <div class="grid-item"></div>
   <div class="grid-item"></div>
-  <div class="grid-item">ん</div>
+  <div class="grid-item" onclick="document.getElementById('sound_n').play();">ん</div>
 </div>
 
 <div class="grid-container">
