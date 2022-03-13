@@ -9,6 +9,10 @@ margin: 0 auto;
 -webkit-text-size-adjust: 100%;
 }
 
+main {
+				padding: 10px;
+}
+
 /* Kana Table Grid */
 
 .grid-container {
@@ -138,4 +142,59 @@ footer {
 				text-align: center;
 				padding: 20px;
 				font-size: 20px;
+}
+
+/* More */
+
+.PrintLink {
+     background-color: #f0f0f0;
+				width: 150px;
+				margin: 5px;
+				border-radius: 4px;
+}
+
+/* Breadcrumbs */
+
+ul.breadcrumb {
+  padding: 10px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1em;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/* Vocabulary Table */
+
+#vocablist {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#vocablist td, #vocablist th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#vocablist th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0080f0;
+  color: white;
 }
