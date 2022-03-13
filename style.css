@@ -10,11 +10,10 @@ margin: 0 auto;
 }
 
 main {
-padding: 10px;
+				padding: 10px;
 }
 
 /* Kana Table Grid */
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
@@ -26,7 +25,7 @@ padding: 10px;
 .grid-container-3 {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #2196F3;
+  background-color: #0080f0;
   padding: 10px;
   font-weight: bold;
 }
@@ -40,6 +39,31 @@ padding: 10px;
 }
 
 .grid-item span {
+				font-size: 0.5em;
+				font-family: 'Fredoka', sans-serif;
+				display: block;
+				font-weight: normal;
+}
+
+/* Kanji Table */
+.kanji-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #0080f0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.kanji-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.kanji-item span {
 				font-size: 0.5em;
 				font-family: 'Fredoka', sans-serif;
 				display: block;
@@ -279,6 +303,12 @@ ul.breadcrumb li a:hover {
   padding: 10px;
   font-size: 1.3em;
   border-radius: 5px;
+}
+
+@media screen and (min-width: 450px) {
+				.bottom-left {
+								font-size: 1.7em;
+				}
 }
 
 .top-left {
