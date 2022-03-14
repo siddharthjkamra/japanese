@@ -167,6 +167,11 @@ header img {
 /* Header CSS Ends */
 
 /* Universal Code */
+h1 {
+				font-size: 2.8em;
+				text-align: center;
+}
+
 .CatTitle {
 background-color:#f0f0f0;
 text-align:center;
@@ -185,6 +190,12 @@ padding:10px;
 }
 
 @media screen and (min-width: 450px) {
+      h1 {
+      				font-size: 3.5em;
+      }
+      p {
+      				font-size: 2em;
+      }
 				.CatTitle {
 								font-size: 3em;
 				}
@@ -266,8 +277,10 @@ hr {
 
 @media screen and (min-width: 450px) {
 				.articles li {
-								font-size: 2.5em;
-								padding: 20px;
+								font-size: 2.8em;
+								padding: 25px;
+								box-shadow: 6px 6px lightblue;
+								margin: 20px;
 				}
 }
 
