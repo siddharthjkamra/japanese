@@ -445,3 +445,17 @@ ul.breadcrumb li a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.save {
+				font-size: 14px;
+				font-family: 'Fredoka', sans-serif;
+				text-align: center;
+				margin: 20px;
+}
+
+.save a {
+				text-decoration: none;
+				color: white;
+				background-color: black;
+				padding: 10px;
+}
