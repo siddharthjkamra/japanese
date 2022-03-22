@@ -1,31 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="wave-style.css"></link>
 <title>JapaneseWave - Free Study Materials</title>
+<!-- Primary Meta Tags -->
+<link rel="icon" type="image/x-icon" href="/files/meta/favicon.ico">
+<meta name="title" content="JapaneseWave - Free Study Materials">
 <meta name="description" content="Japanese Wave is created for providing free stuff for Japanese Learners.">
-<meta property="og:image" content="/files/wave.png"/>
-<link rel="icon" type="image/png" href="/files/wave.png"/>
-<link rel="stylesheet" href="style.css"></link>
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/files/meta/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="files/meta/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/files/meta/android-chrome-192x192.png">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://japanesewave.com/">
+<meta property="og:title" content="JapaneseWave - Free Study Materials">
+<meta property="og:description" content="Japanese Wave is created for providing free stuff for Japanese Learners.">
+<meta property="og:image" content="/files/meta/fb-open-graph.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://japanesewave.com/">
+<meta property="twitter:title" content="JapaneseWave - Free Study Materials">
+<meta property="twitter:description" content="Japanese Wave is created for providing free stuff for Japanese Learners.">
+<meta property="twitter:image" content="/files/meta/twitter-card.png">
 </head>
 <body>
-<header>
-<img src="files/wave.png"/> <span class="title">JapaneseWave</span>
-</header>
+
+<div class="header">
+  <img src="files/wave.png"/> <span class="title">JapaneseWave</span>
+</div>
 <nav>
   <a class="active" href="#">Home</a> 
-  <a href="lessons">Lessons</a> 
-  <a href="kanji/">Kanji</a> 
+  <a href="lessons/index.html">Lessons</a> 
+  <a href="kanji/index.html">Kanji</a> 
   <a href="contact">Contact</a>
 </nav>
-<div class="herotext">
-<span class="biglearn">LEARN</span>
-<span class="smallfor">FOR</span>
-<div class="biganime">ANIME</div>
-</div>
-<hr>
-<div class="container">
+<div class="row">
+  <div class="col-6 col-s-9 menu">
+    <div class="container">
   <img src="files/yotsuba.jpg">
   <div class="bottom-left">Review of Yotsubato&!</div>
 </div>
@@ -37,8 +53,9 @@
   <img src="files/doraemon.jpg">
   <div class="bottom-left">Review of Doraemon</div>
 </div>
-<hr>
-<div class="CatTitle">KANJI</div>
+  </div>
+
+  <div class="col-6 col-s-9">
 <div class="kanji-container">
   <div class="kanji-item">日<span>day</span></div>
   <div class="kanji-item">国<span>country</span></div>  
@@ -61,12 +78,11 @@
   <div class="kanji-item">水<span>water</span></div>
   <div class="kanji-item">火<span>fire</span></div>
 </div>
-<center>
-<a href="/kanji"><img class="loadmore" src="files/load-more.png" alt="Load More Kanji"></a>
-</center>
-<hr>
-<div class="CatTitle">ARTICLES</div>
-<div class="articles">
+<div class="load-more"><span>load more</span></div>
+  </div>
+  
+  <div class="col-6 col-s-9">
+      <div class="articles">
 <ul>
 <li>Should You Memorize Kana?</li>
 <li>How to Learn Kanji?</li>
@@ -75,18 +91,19 @@
 <li>Does Duolingo Really Work?</li>
 </ul>
 </div>
-<center>
-<img class="loadmore" src="files/load-black.png" alt="Load More Articles">
-</center>
-<br>
-<footer>
+<div class="load-more"><span>load more</span></div>
+</div>
+</div>
+<div class="footer">
 <ul>
 <li><a href="#">About</a></li>
 <li><a href="#">Privacy</a></li>
 <li><a href="#">Copyright</a></li>
 <li><a href="#">Contact</a></li>
 </ul>
-© 2022 JapaneseWave - All rights reserved
-</footer>
+  <p>© 2022 JapaneseWave.com - All rights reserved</p>
+</div>
 </body>
 </html>
+
+
