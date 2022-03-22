@@ -1,0 +1,226 @@
+/* Universal */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  background-color: #f1faf1;
+}
+
+/* Header */
+
+.header {
+  background-color: #3944bc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.header .title {
+				font-size: 25px;
+				vertical-align: middle;
+}
+.header img {
+				width: 50px;
+				vertical-align: middle;
+				-webkit-filter: grayscale(1) invert(1);
+				filter: grayscale(1) invert(1);
+}
+
+/* Navbar */
+
+nav {
+				padding: 5px;
+				border-bottom: 3px solid black;
+				margin-top: 5px;
+}
+
+nav a {
+				color: black;
+				background-color: #f0f0f0;
+				text-decoration: none;
+				font-size: 1.1em;
+				padding: 5px 5px 5px 5px;
+}
+
+nav .active {
+				background-color: #3ded97;
+				color: black;
+}
+
+/* Aside */
+
+.aside {
+  background-color: #8d153a;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* Footer */
+
+.footer {
+  background-color: #3944bc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  padding: 15px;
+}
+
+.footer ul {
+      list-style-type: none;
+      padding: 0px;
+}
+
+.footer li {
+				display: inline;
+				font-size: 17px;
+}
+
+.footer li a {
+				text-decoration: none;
+				color: #f5fefd;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%; text-align: center;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+/* Kanji Table */
+
+.kanji-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-weight: bold;
+  color: #fefffe;
+  border: 1.5px solid #3ded97;
+  margin-bottom: 15px;
+}
+
+.kanji-item {
+  background-color: black;
+  border: 1px solid white;
+  padding: 15px;
+  font-size: 1.3em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.kanji-item:hover {
+				background-color: #3944bc;
+}
+
+.kanji-item span {
+		font-size: 0.5em;
+		font-family: 'Fredoka', sans-serif;
+		display: block;
+		font-weight: normal;
+}
+
+/* Text over Image */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0px 8px 8px 8px;
+}
+
+.container img {
+	border-radius: 5px;
+	width: 100%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 1.3em;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Articles */
+
+.articles ul {
+				list-style-type: none;
+				padding: 0px;				
+}
+.articles li {
+      background-color: black;
+				font-size: 1.2em;
+				padding: 10px;
+				margin-bottom: 10px;
+				color: #ffffff;
+				box-shadow: 3px 3px #3ded97;
+}
+.articles li:hover {
+				background-color: #3944bc;
+}
+
+/* Load more */
+
+.load-more {
+				color: white;
+				font-size: 1em;
+				text-align: right;
+}
+
+.load-more span {
+				background-color: #3944bc;
+				padding: 5px;
+}
+
+.load-more span:hover {
+				background-color: black;
+				border: 2px solid #3ded97;
+}
