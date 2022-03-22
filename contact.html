@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Contact - JapaneseWave</title>
-<meta property="og:image" content="/files/wave.png"/>
-<link rel="icon" type="image/png" href="/files/wave.png"/>
-<link rel="stylesheet" href="style.css"></link>
+<meta name="description" content="Get in touch to us through email">
+<link rel="stylesheet" href="wave-style.css"></link>
+<link rel="icon" type="image/x-icon" href="/files/meta/favicon.ico">
 </head>
 <body>
-<header>
+<div class="header">
 <img src="files/wave.png"/> <span class="title">JapaneseWave</span>
-</header>
+</div>
 <nav>
   <a href="/">Home</a> 
   <a href="/lessons">Lessons</a> 
@@ -28,11 +27,12 @@ input[type=text], textarea, select {
   border-radius: 4px;
   box-sizing: border-box;
   font-family: 'Fredoka', sans-serif;
+  outline-color: #3944bc;
 }
 
 input[type=submit] {
   width: 100%;
-  background-color: #0080f0;
+  background-color: #3944bc;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -40,6 +40,10 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   font-family: 'Fredoka', sans-serif;
+}
+
+select {
+ background-color: white;
 }
 
 input[type=submit]:hover {
@@ -53,6 +57,7 @@ input[type=submit]:hover {
   margin: 10px;
 }
 </style>
+
 <h1 style="text-align: center;">Contact</h1>
 <p style="text-align: center;">For enquiry, suggestion, bug or anything</p>
 <div class="contact-form">
@@ -85,6 +90,16 @@ input[type=submit]:hover {
     <input type="submit" value="Submit" disabled>
   </form>
 </div>
-<footer>© 2022 JapaneseWave - All rights reserved</footer>
+<center>
+<p>Send us to contact@JapaneseWave.com</p>
+</center>
+<div class="footer">
+<ul>
+<li><a href="/about">About</a></li>
+<li><a href="/legal/privacy">Privacy</a></li>
+<li><a href="/legal/copyright">Copyright</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+<p>© 2022 JapaneseWave.com - All rights reserved</p></div>
 </body>
 </html>
