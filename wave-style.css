@@ -31,30 +31,30 @@ html {
 }
 
 .header .title {
-				font-size: 25px;
-				vertical-align: middle;
+font-size: 25px;
+vertical-align: middle;
 }
 .header img {
-				width: 50px;
-				vertical-align: middle;
-				-webkit-filter: grayscale(1) invert(1);
-				filter: grayscale(1) invert(1);
+width: 50px;
+vertical-align: middle;
+-webkit-filter: grayscale(1) invert(1);
+filter: grayscale(1) invert(1);
 }
 
 /* Navbar */
 
 nav {
-				padding: 5px;
-				border-bottom: 3px solid black;
-				margin-top: 5px;
+padding: 5px;
+border-bottom: 3px solid black;
+margin-top: 5px;
 }
 
 nav a {
-				color: black;
-				background-color: #f0f0f0;
-				text-decoration: none;
-				font-size: 1.1em;
-				padding: 5px 5px 5px 5px;
+color: black;
+background-color: #f0f0f0;
+text-decoration: none;
+font-size: 1.1em;
+padding: 5px 5px 5px 5px;
 }
 
 nav .active {
