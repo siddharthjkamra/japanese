@@ -260,8 +260,14 @@ background-color: #3ded97;
 border-radius: 5px;
 }
 
-
 .card-of-course li:before {
-content: url('files/flower.png');
-vertical-align: middle;
+content: '';
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url('files/flower.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 5px;
+  vertical-align: middle;
 }
