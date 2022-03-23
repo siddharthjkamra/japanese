@@ -224,3 +224,44 @@ nav .active {
 				background-color: black;
 				border: 2px solid #3ded97;
 }
+
+/* Card of Courses */
+
+.card-of-course {
+background-color: #ffffff;
+margin: 10px;
+border: 2px solid black;
+border-radius: 10px 10px 0px 0px;
+}
+
+.card-of-course .title {
+background-color: #3944bc;
+color: white;
+padding: 10px;
+border-radius: 8px 8px 0px 0px;
+}
+
+.card-of-course ul {
+padding-left: 10px;
+list-style-type: none;
+color: black;
+text-align: left;
+padding-right: 10px;
+}
+
+.card-of-course li {
+padding: 5px;
+vertical-align: middle;
+}
+
+.card-of-course li:hover {
+border-bottom: 2px solid #3ded97;
+background-color: #3ded97;
+border-radius: 5px;
+}
+
+
+.card-of-course li:before {
+content: url('files/flower.png');
+vertical-align: middle;
+}
