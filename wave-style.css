@@ -31,30 +31,30 @@ html {
 }
 
 .header .title {
-font-size: 25px;
-vertical-align: middle;
+				font-size: 25px;
+				vertical-align: middle;
 }
 .header img {
-width: 50px;
-vertical-align: middle;
--webkit-filter: grayscale(1) invert(1);
-filter: grayscale(1) invert(1);
+				width: 50px;
+				vertical-align: middle;
+				-webkit-filter: grayscale(1) invert(1);
+				filter: grayscale(1) invert(1);
 }
 
 /* Navbar */
 
 nav {
-padding: 5px;
-border-bottom: 3px solid black;
-margin-top: 5px;
+				padding: 5px;
+				border-bottom: 3px solid black;
+				margin-top: 5px;
 }
 
 nav a {
-color: black;
-background-color: #f0f0f0;
-text-decoration: none;
-font-size: 1.1em;
-padding: 5px 5px 5px 5px;
+				color: black;
+				background-color: #f0f0f0;
+				text-decoration: none;
+				font-size: 1.1em;
+				padding: 5px 5px 5px 5px;
 }
 
 nav .active {
@@ -147,7 +147,7 @@ nav .active {
 }
 
 .kanji-item {
-  background-color: black;
+  background-color: #1d2733;
   border: 1px solid white;
   padding: 15px;
   font-size: 1.3em;
@@ -160,6 +160,47 @@ nav .active {
 }
 
 .kanji-item span {
+		font-size: 0.5em;
+		font-family: 'Fredoka', sans-serif;
+		display: block;
+		font-weight: normal;
+}
+
+
+/* Kana Table */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  font-weight: bold;
+  color: #fefffe;
+  border: 1.5px solid #3ded97;
+  margin-bottom: 15px;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-weight: bold;
+  color: #fefffe;
+  border: 1.5px solid #3ded97;
+  margin-bottom: 15px;
+}
+
+.grid-item {
+  background-color: #1d2733;
+  border: 1px solid white;
+  padding: 15px;
+  font-size: 1.3em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.grid-item:hover {
+				background-color: #3944bc;
+}
+
+.grid-item span {
 		font-size: 0.5em;
 		font-family: 'Fredoka', sans-serif;
 		display: block;
@@ -196,7 +237,7 @@ nav .active {
 				padding: 0px;				
 }
 .articles li {
-      background-color: black;
+      background-color: #121212;
 				font-size: 1.2em;
 				padding: 10px;
 				margin-bottom: 10px;
@@ -224,6 +265,7 @@ nav .active {
 				background-color: black;
 				border: 2px solid #3ded97;
 }
+
 
 /* Card of Courses */
 
@@ -260,8 +302,9 @@ background-color: #3ded97;
 border-radius: 5px;
 }
 
+
 .card-of-course li:before {
-content: '';
+  content: '';
   display: inline-block;
   height: 20px;
   width: 20px;
